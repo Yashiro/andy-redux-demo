@@ -1,0 +1,29 @@
+{
+  "name": "andy-redux-demo",
+  "version": "1.0.0",
+  "description": "andy-redux use demo",
+  "author": "Andy",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=9090 roadhog server",
+    "build": "roadhog build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "andy-redux": "^1.0.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "babel": {
+    "plugins": [
+      [
+        "transform-decorators-legacy"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.5"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extraBabelPlugins": [
+      "transform-decorators-legacy"
+  ],
+  "devtool": "source-map"
+}
